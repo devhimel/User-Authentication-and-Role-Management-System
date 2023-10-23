@@ -83,7 +83,9 @@ if(isset($_GET['id']) && isset($_GET['id']) != NULL){
         </div>
         <div class="flex items-center justify-between">
             <h2 class="text-2xl font-bold text-gray-900 dark:text-white pt-4">User List</h2>
-            <button class="px-4 py-2 text-white bg-teal-500 rounded-md">Add User</button>
+            <button class="px-4 py-2 text-white bg-teal-500 rounded-md">
+                <a href="add-user.php">Add User</a>
+            </button>
         </div>
 
 
