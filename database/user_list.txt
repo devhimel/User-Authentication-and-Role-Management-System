@@ -1,3 +1,4 @@
 admin, admin@gmail.com, 123456, Bonnie Green
 manager, manager@gmail.com, 123456, Thomas Lean
 manager, himel@gmail.com, 123, Md Himel Ali
+user, himel@gmail.com, 123, Md Himel Ali
