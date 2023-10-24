@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(!isset($_SESSION['name']) && $_SESSION['role'] != 'admin'){
+if(!isset($_SESSION['name']) && $_SESSION['role'] != 'admin' || $_SESSION['role'] != 'manager'){
     header("Location: login.php");
 }
 $id = $_GET['id'];
