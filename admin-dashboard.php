@@ -115,7 +115,7 @@ if(isset($_GET['id']) && isset($_GET['id']) != NULL){
                     <?php for ($i = 0; $i < count($data); $i++){ ?>
                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                         <td class="px-6 py-4 text-center">
-                            # <?php echo $i; ?>
+                            # <?php echo $i + 1; ?>
                         </td>
                         <th scope="row"
                             class="px-6 py-4 text-center font-medium text-gray-900 whitespace-nowrap dark:text-white">

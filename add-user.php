@@ -1,4 +1,9 @@
 <?php
+/* ======== Permission Check ======== */
+session_start();
+if(!isset($_SESSION['name']) && $_SESSION['role'] != 'admin'){
+    header("Location: login.php");
+}
 if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
