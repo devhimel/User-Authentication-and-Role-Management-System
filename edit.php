@@ -1,6 +1,6 @@
 <?php
 session_start();
-if($_SESSION['role'] = 'user'){
+if($_SESSION['role'] == 'user' ){
     header("Location: login.php");
 }
 $id = $_GET['id'];
